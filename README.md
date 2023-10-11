@@ -1,3 +1,5 @@
+<div><img> </div>
+
 # AWAX
 
 AWAX é um site experimento de um projeto de um curso que estou fazendo para aprimorar minhas habilidades em HTML, CSS, Flexbox e Media Queries.

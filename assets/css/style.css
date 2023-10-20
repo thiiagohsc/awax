@@ -70,6 +70,19 @@ header {
     color: #ccc;
 }
 
+.buttom {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #b28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
 
 .banner {
     height:calc(100vh - 100px);
@@ -115,19 +128,6 @@ header {
 .banner .slidearea h2 {
     text-transform: uppercase;
     margin-top: 10px;
-}
-
-.banner a {
-    text-decoration: none;
-    display: block;
-    background-color: #b28756;
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
 }
 
 .banner .sliders-pointers {
@@ -205,3 +205,26 @@ header {
 
 
 /* ABOUT US */
+
+.section-aboutus {
+ display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
